@@ -1,7 +1,7 @@
 {
   "name": "revised-inspiration-cards",
   "title": "Revised Inspiration Cards",
-  "description": "An alternative DreamingHero1997 made for inspiration, with the use of cards that can be drawn.",
+  "description": "A revised alternative DreamingHero1997 made for inspiration, with the use of cards that can be drawn.",
   "version": "3.0",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -16,7 +16,7 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "languages/en.json",
     }
   ],
   "dependencies": [
@@ -42,7 +42,7 @@
       "type": "Item",
       "private": false,
       "system": "dnd5e",
-      "flags": {}
+      "flags": {},
     },
     {
       "name": "dreamings-inspiration-cards-rules",
@@ -50,7 +50,7 @@
       "path": "packs/dreamings-inspiration-cards-rules.db",
       "type": "JournalEntry",
       "private": false,
-      "flags": {}
+      "flags": {},
     },
     {
       "name": "dreamings-inspiration-cards-rolltable",
@@ -58,7 +58,7 @@
       "path": "packs/dreamings-inspiration-cards-rolltable",
       "type": "RollTable",
       "private": false,
-      "flags": {}
+      "flags": {},
     }
   ],
   "relationships": [
@@ -83,4 +83,3 @@
   "license": "LICENSE",
   "readme": "README.md",
 }
-
