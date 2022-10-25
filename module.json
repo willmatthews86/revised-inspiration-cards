@@ -1,38 +1,37 @@
 {
-  "name": "revised-inspiration-cards",
+  "id": "revised-inspiration-cards",
   "title": "Revised Inspiration Cards",
   "description": "A revised alternative DreamingHero1997 made for inspiration, with the use of cards that can be drawn.",
   "version": "3.0",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10",
+  "compatibility": {
+                      "minimum": 9,
+                      "verified": "9.120"
+                    },
   "authors": [
-    {
-      "name": "willmatthews86",
-    },
-  ],
+              {
+                "name": "willmatthews86",
+                "url": "",
+                "email": "",
+                "discord": "VishuddhaPDX#4730"
+              }
+            ],
+  "relationships": [{
+                    "systems": [{
+                              "id": "dnd5e",
+                              "type": "system",
+                              "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+                              "compatibility": [{
+                                                  "minimum": "2.0",
+                                                  "verified": "2.0"
+                                                }]
+                                }]
+                  }],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json",
+      "path": "languages/en.json"
     }
-  ],
-  "dependencies": [
-
-  ],
-  "conflicts": [
-
-  ],
-  "esmodules": [
-
-  ],
-  "scripts": [
-
-  ],
-  "styles": [
-
   ],
   "packs": [
     {
@@ -42,7 +41,7 @@
       "type": "Item",
       "private": false,
       "system": "dnd5e",
-      "flags": {},
+      "flags": {}
     },
     {
       "name": "dreamings-inspiration-cards-rules",
@@ -50,7 +49,7 @@
       "path": "packs/dreamings-inspiration-cards-rules.db",
       "type": "JournalEntry",
       "private": false,
-      "flags": {},
+      "flags": {}
     },
     {
       "name": "dreamings-inspiration-cards-rolltable",
@@ -58,28 +57,13 @@
       "path": "packs/dreamings-inspiration-cards-rolltable",
       "type": "RollTable",
       "private": false,
-      "flags": {},
+      "flags": {}
     }
   ],
-  "relationships": [
-    {
-      "systems": [
-        {
-          "id": "dnd5e",
-          "type": "system",
-          "compatibility":  [
-            {
-              "minimum": "2.0",
-              "verified": "2.0",
-            }
-          ],
-        }
-      ],
-    }
-  ],
+
   "url": "https://github.com/willmatthews86/revised-inspiration-cards",
   "manifest": "https://github.com/willmatthews86/revised-inspiration-cards/releases/latest/download/module.json",
   "download": "https://github.com/willmatthews86/revised-inspiration-cards/releases/latest/download/module.zip",
   "license": "LICENSE",
-  "readme": "README.md",
+  "readme": "README.md"
 }
