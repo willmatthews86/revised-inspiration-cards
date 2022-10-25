@@ -38,7 +38,7 @@
       "name": "dreamings-inspiration-cards",
       "label": "Dreaming's Inspiration Cards",
       "path": "packs/dreamings-inspiration-cards.db",
-      "type": "Item",
+      "type": "CardStack",
       "private": false,
       "system": "dnd5e",
       "flags": {}
