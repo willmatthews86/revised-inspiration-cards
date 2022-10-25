@@ -26,13 +26,13 @@
 
   ],
   "esmodules": [
-    
+
   ],
   "scripts": [
-    
+
   ],
   "styles": [
-    
+
   ],
   "packs": [
     {
@@ -61,24 +61,26 @@
       "flags": {}
     }
   ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility":  [
-          {
-            "minimum": "2.0",
-            "verified": "2.0"
-          }
-        ],
-        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-      }
-    ],
-  },
+  "relationships": [
+    {
+      "systems": [
+        {
+          "id": "dnd5e",
+          "type": "system",
+          "compatibility":  [
+            {
+              "minimum": "2.0",
+              "verified": "2.0",
+            }
+          ],
+        }
+      ],
+    }
+  ],
   "url": "https://github.com/willmatthews86/revised-inspiration-cards",
   "manifest": "https://github.com/willmatthews86/revised-inspiration-cards/releases/latest/download/module.json",
   "download": "https://github.com/willmatthews86/revised-inspiration-cards/releases/latest/download/module.zip",
   "license": "LICENSE",
   "readme": "README.md",
 }
+
