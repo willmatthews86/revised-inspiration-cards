@@ -1,0 +1,65 @@
+{
+  "name": "revised-inspiration-cards",
+  "title": "Revised Inspiration Cards",
+  "description": "An alternative DreamingHero1997 made for inspiration, with the use of cards that can be drawn.",
+  "version": "3.0",
+  "library": "false",
+  "manifestPlusVersion": "1.0.0",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
+  "authors": [
+    {
+      "name": "willmatthews86",
+    },
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "dependencies": [
+
+  ],
+  "conflicts": [
+
+  ],
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "scripts": [
+    "scripts/lib/lib.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "packs": [
+    {
+      "name": "dreamings-inspiration-cards",
+      "label": "Dreaming's Inspiration Cards",
+      "path": "packs/dreamings-inspiration-cards.db",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "dreamings-inspiration-cards-rules",
+      "label": "Dreaming's Inspiration Cards Rules",
+      "path": "packs/dreamings-inspiration-cards-rules.db",
+      "type": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "dreamings-inspiration-cards-rolltable",
+      "label": "Dreaming's Inspiration Cards Rolltable",
+      "path": "packs/dreamings-inspiration-cards-rolltable",
+      "type": "RollTable",
+      "private": false
+    }
+  ],
+  "url": "https://github.com/willmatthews86/revised-inspiration-cards",
+  "manifest": "https://github.com/willmatthews86/revised-inspiration-cards/releases/latest/download/module.json",
+  "download": "https://github.com/willmatthews86/revised-inspiration-cards/releases/latest/download/module.zip",
+  "license": "LICENSE",
+  "readme": "README.md",
+}
